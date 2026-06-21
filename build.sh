@@ -25,11 +25,13 @@ cp "$APP" "$BUNDLE/Contents/MacOS/"
 cp Info.plist "$BUNDLE/Contents/"
 rm "$APP"
 
-# Copy bottle image asset
-if [ -f ~/Desktop/bottle.png ]; then
+# Copy bottle image asset (repo copy takes priority)
+if [ -f bottle.png ]; then
+    cp bottle.png "$BUNDLE/Contents/Resources/bottle.png"
+elif [ -f ~/Desktop/bottle.png ]; then
     cp ~/Desktop/bottle.png "$BUNDLE/Contents/Resources/bottle.png"
 else
-    echo "WARNING: ~/Desktop/bottle.png not found — bottle image will be missing"
+    echo "WARNING: bottle.png not found — bottle image will be missing"
 fi
 
 echo "✓ Built $BUNDLE"
