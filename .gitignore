@@ -1,0 +1,6 @@
+# Build output
+*.app/
+BottleFlip
+
+# macOS
+.DS_Store
