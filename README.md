@@ -8,6 +8,10 @@
   A bottle flip game that lives entirely in your macOS menu bar.
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/license-Attribution--NonCommercial-blue" alt="License: Attribution NonCommercial" />
+</p>
+
 ---
 
 ## How it works
@@ -41,3 +45,13 @@ pkill BottleFlip
 ## Built with
 
 Swift · AppKit · CoreGraphics · IOKit
+
+## License
+
+Copyright © 2026 **Amal Krishna A**
+
+Free to fork and build on — with two rules:
+1. **Credit me.** Any public fork or derivative must link back to this repo and name Amal Krishna A as the original author.
+2. **No selling.** You can't sell this or bundle it into a paid product without my written permission.
+
+See [LICENSE](LICENSE) for the full terms.
