@@ -34,7 +34,9 @@ bash build.sh
 open BottleFlip.app
 ```
 
-Or download the pre-built app from [Releases](https://github.com/amalkrishnaa333-code/Mac-Menu-Bar-Battery-Bottle-Flip/releases).
+Or download **BottleFlip-v1.0.0.dmg** from [Releases](https://github.com/amalkrishnaa333-code/Mac-Menu-Bar-Battery-Bottle-Flip/releases), open the DMG, and drag to Applications.
+
+> **First launch:** macOS will block an app from an unregistered developer. Right-click `BottleFlip.app` → **Open** → **Open** to run it. You only need to do this once.
 
 ## Kill it
 

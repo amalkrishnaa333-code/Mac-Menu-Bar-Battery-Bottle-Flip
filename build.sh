@@ -34,6 +34,9 @@ else
     echo "WARNING: bottle.png not found — bottle image will be missing"
 fi
 
+echo "→ Signing (ad-hoc)..."
+codesign --force --deep --sign - "$BUNDLE"
+
 echo "✓ Built $BUNDLE"
 echo ""
 echo "Run:   open $BUNDLE"
